@@ -51,11 +51,11 @@ export default function Component({ service }) {
     <Container service={service}>
       <Block 
         label="epic.current" 
-        value={currentGames.length ? currentGames.map(game => game.title).join('\n') : t('epic.none')} 
+        value={currentGames.length ? currentGames.map(game => game.title).join(', ') : t('epic.none')} 
       />
       <Block 
         label="epic.upcoming" 
-        value={upcomingGames.length ? upcomingGames.map(game => game.title).join('\n') : t('epic.none')} 
+        value={upcomingGames.length ? upcomingGames.map(game => game.title).join(', ') : t('epic.none')} 
       />
     </Container>
   );
