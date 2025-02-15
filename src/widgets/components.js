@@ -27,6 +27,7 @@ const components = {
   docker: dynamic(() => import("./docker/component")),
   kubernetes: dynamic(() => import("./kubernetes/component")),
   emby: dynamic(() => import("./emby/component")),
+  epic: dynamic(() => import("./epic-games/component")),
   esphome: dynamic(() => import("./esphome/component")),
   evcc: dynamic(() => import("./evcc/component")),
   fileflows: dynamic(() => import("./fileflows/component")),

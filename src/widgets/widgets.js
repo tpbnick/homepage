@@ -21,6 +21,7 @@ import develancacheui from "./develancacheui/widget";
 import diskstation from "./diskstation/widget";
 import downloadstation from "./downloadstation/widget";
 import emby from "./emby/widget";
+import epic from "./epic-games/widget";
 import esphome from "./esphome/widget";
 import evcc from "./evcc/widget";
 import fileflows from "./fileflows/widget";
@@ -155,6 +156,7 @@ const widgets = {
   diskstation,
   downloadstation,
   emby,
+  epic,
   esphome,
   evcc,
   fileflows,
